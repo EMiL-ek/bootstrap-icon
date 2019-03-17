@@ -11,7 +11,7 @@ body {
     background-color: #9b59b6
 }
 
-.b, .b::before, .b::after, {
+.b, .b::before, .b::after {
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     -ms-border-radius:50px;
@@ -56,7 +56,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .b, .b::before, .b::after, {
+    .b, .b::before, .b::after {
         width: 200px;
         height: 200px;
         border-radius: 20px;
